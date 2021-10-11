@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { EditRoutingModule } from './edit-routing.module';
 import { EditComponent } from './edit.component';
+import { EmployeeFormModule } from 'src/app/shared/components/employee-form/employee-form.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { EditComponent } from './edit.component';
   ],
   imports: [
     CommonModule,
-    EditRoutingModule
+    EditRoutingModule,
+    EmployeeFormModule
   ]
 })
 export class EditModule { }
